@@ -18,3 +18,7 @@
 - Add css style and image from provided data.
 - Create some component from provided html template.
 - Overall created component is Layout, Balance, Form, and Transactions related component.
+
+### Create APIs (7.3)
+
+#### Communicate with the server
