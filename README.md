@@ -38,3 +38,7 @@
 ### Add Transaction (7.5)
 
 #### Feature - Adding new Transaction
+
+- Edit form like add onChange, value , name, etc.
+- Create changehadler function, in this function action dispatch occurs
+- Now data is gone database with post api
