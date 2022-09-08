@@ -26,3 +26,7 @@
 - Create axiosInstance with base url.
 - Create transactions API for CRUD operation.
 - In transactions file created get, post, put, and delete API with hit transactions api.
+
+### Thunks and Slices (7.4)
+
+#### Write async thunks and create Slice
