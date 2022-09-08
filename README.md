@@ -22,3 +22,7 @@
 ### Create APIs (7.3)
 
 #### Communicate with the server
+
+- Create axiosInstance with base url.
+- Create transactions API for CRUD operation.
+- In transactions file created get, post, put, and delete API with hit transactions api.
