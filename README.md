@@ -30,3 +30,7 @@
 ### Thunks and Slices (7.4)
 
 #### Write async thunks and create Slice
+
+- Create four differenc thunk function for dirfferent work.
+- And also create slice and every thun have three different case pending, fulfilled, and rejected.
+- For edit and remove fulfilled case have some JS functionality.
