@@ -10,7 +10,7 @@ const Form = () => {
   const { isLoading, isError } = useSelector((state) => state.transaction);
 
   const handleCreate = (e) => {
-    e.preventDefult();
+    e.preventDefault();
     dispatch(
       createTransaction({
         name,

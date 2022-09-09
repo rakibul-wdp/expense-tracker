@@ -42,3 +42,7 @@
 - Edit form like add onChange, value , name, etc.
 - Create changehadler function, in this function action dispatch occurs
 - Now data is gone database with post api
+
+### List Transactions (7.6)
+
+#### Feature - Gettting list of Transactions
