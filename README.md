@@ -46,3 +46,7 @@
 ### List Transactions (7.6)
 
 #### Feature - Gettting list of Transactions
+
+- Bring transactions data by useSelector in Transactions componenet.
+- Handle all case like isLoadin, isError, and if data have then pass data Transaction component.
+- Recive data as a props and show dynamically in Transaction component.
