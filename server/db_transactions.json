@@ -1,3 +1,40 @@
 {
-  "transactions": []
+  "transactions": [
+    {
+      "name": "Salary from Google",
+      "type": "income",
+      "amount": 500,
+      "id": 1
+    },
+    {
+      "name": "Personal expense",
+      "type": "expense",
+      "amount": 200,
+      "id": 2
+    },
+    {
+      "name": "Test",
+      "type": "income",
+      "amount": 300,
+      "id": 3
+    },
+    {
+      "name": "Test2",
+      "type": "income",
+      "amount": 100,
+      "id": 4
+    },
+    {
+      "name": "Outside expense",
+      "type": "expense",
+      "amount": 300,
+      "id": 5
+    },
+    {
+      "name": "Upwork",
+      "type": "income",
+      "amount": 6000,
+      "id": 6
+    }
+  ]
 }
