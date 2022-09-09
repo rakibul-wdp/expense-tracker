@@ -58,3 +58,7 @@
 - When you click edit icon it's data is showing in form section. For this purpose we declare global state for set data ata first globally.
 - After showing data in form it's will be updatable and also you can cancel update.
 - Take reducer like editActive and editInActive reducer and work in form component like update edit mode on.
+
+### Delete Transaction (7.8)
+
+#### Feature - Deleting Transaction
