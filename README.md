@@ -70,3 +70,8 @@
 ### Balance Calculation (7.9)
 
 #### Feature - Calculate Final Balance
+
+- By using forEach method calculate totla amount (income, expence).
+- If income then it add with amount otherwise it minus from amount.
+- And the call this function in UI section.
+- Also add thousend comma separated function.
