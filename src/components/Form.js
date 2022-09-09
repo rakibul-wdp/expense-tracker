@@ -6,6 +6,8 @@ const Form = () => {
   const [name, setName] = useState('');
   const [type, setType] = useState('');
   const [amount, setAmount] = useState('');
+  const [editMode, setEditMode] = useState(false);
+
   const dispatch = useDispatch();
   const { isLoading, isError } = useSelector((state) => state.transaction);
 
@@ -25,6 +27,10 @@ const Form = () => {
       })
     );
     reset();
+  };
+
+  const cancelEditMode = () => {
+    setEditMode(false);
   };
 
   return (
@@ -89,7 +95,11 @@ const Form = () => {
         {!isLoading && isError && <p className='error'>Thre was an error occured...!!!</p>}
       </form>
 
-      <button className='btn cancel_edit'>Cancel Edit</button>
+      {editMode && (
+        <button onClick={cancelEditMode} className='btn cancel_edit'>
+          Cancel Edit
+        </button>
+      )}
     </div>
   );
 };
