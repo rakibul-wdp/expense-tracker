@@ -62,3 +62,7 @@
 ### Delete Transaction (7.8)
 
 #### Feature - Deleting Transaction
+
+- Add delete functionality and dispatch removeTransaction with passig id.
+- But oen thing we need to remember that action.payload doesn't have id but action.meta.arg have id.
+- So, when you filter after fulfilled remove you need to compare action.meta.arg
