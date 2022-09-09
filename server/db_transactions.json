@@ -17,6 +17,12 @@
       "type": "expense",
       "amount": 100,
       "id": 3
+    },
+    {
+      "name": "Salary from job",
+      "type": "income",
+      "amount": 5000,
+      "id": 4
     }
   ]
 }

@@ -50,3 +50,7 @@
 - Bring transactions data by useSelector in Transactions componenet.
 - Handle all case like isLoadin, isError, and if data have then pass data Transaction component.
 - Recive data as a props and show dynamically in Transaction component.
+
+### Edit Transaction (7.7)
+
+#### Feature - Editing Transaction
